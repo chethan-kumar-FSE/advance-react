@@ -18,7 +18,6 @@ function App() {
         <Select.Option value="apple">Apple</Select.Option>
       </Select>
       <button onClick={() => console.log(list)}>Get selected</button>
-
       <Tabs>
         <Tabs.Tab activeIndex={1}>Tab1</Tabs.Tab>
         <Tabs.Tab activeIndex={2}>Tab2</Tabs.Tab>
