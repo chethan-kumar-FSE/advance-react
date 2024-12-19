@@ -29,3 +29,14 @@ const Option = ({ value, children, handleOnSelect }) => {
 };
 
 Select.Option = Option;
+
+const App = () => {
+  return (
+    <Select>
+      <Select.Option value="apple">Apple</Select.Option>
+      <Select.Option value="banana">banana</Select.Option>
+      <Select.Option value="city">city</Select.Option>
+      <Select.Option value="apple">Apple</Select.Option>
+    </Select>
+  );
+};
