@@ -9,21 +9,17 @@ import Refing from "./components/Refing";
 import Test1 from "./components/Test1";
 import Test2 from "./components/Test2";
 import Test3 from "./components/Test3";
+import UseDeferedValue from "./components/UseDeferedValue";
+import { UseId } from "./components/UseId";
 import UseLayoutEffect from "./components/UseLayoutEffect";
+import UseTransition from "./components/UseTransition";
 import { AuthProvider } from "./context/PerformantContext";
 import LazyComponent from "./LazyComponent";
 
 function App() {
   return (
     <>
-      <UseLayoutEffect />
-      {/* <Refing /> */}
-      {/* <AuthProvider>
-        <Test1 />
-        <Test2 />
-        <Test3 />
-      </AuthProvider> */}
-      {/* <Recursive fileExplorer={fileExplorer} /> */}
+      <UseTransition />
     </>
   );
 }
