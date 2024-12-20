@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { listContext } from "./context/listContext";
 import { Tabs } from "./components/Tab";
 import Product from "./components/Product"; */
+import { BrowserRouter, Link, RouterProvider } from "react-router";
 import Refering from "./components/Refering";
 import Refing from "./components/Refing";
 import Test1 from "./components/Test1";
@@ -15,11 +16,17 @@ import UseLayoutEffect from "./components/UseLayoutEffect";
 import UseTransition from "./components/UseTransition";
 import { AuthProvider } from "./context/PerformantContext";
 import LazyComponent from "./LazyComponent";
-
+import { AllRouter } from "./components/AsynReactRouter";
 function App() {
   return (
     <>
-      <UseTransition />
+      {/* <RouterProvider router={router} /> */}
+      <AllRouter />
+      {/* <BrowserRouter>
+        <AsyncRouter />
+        <Link to={"/"}>page1</Link>
+        <Link to={"/page2"}>Page2</Link>
+      </BrowserRouter> */}
     </>
   );
 }
