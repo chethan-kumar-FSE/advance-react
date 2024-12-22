@@ -18,10 +18,12 @@ import { AuthProvider } from "./context/PerformantContext";
 import LazyComponent from "./LazyComponent";
 import { AllRouter } from "./components/AsynReactRouter";
 import ElementProp from "./components/ElementProp";
+import { PerformantContext } from "./components/ContextApi1";
+import { ContextApi2 } from "./components/ContextApi2";
 function App() {
   return (
     <>
-      <ElementProp />
+      <ContextApi2 />
     </>
   );
 }
