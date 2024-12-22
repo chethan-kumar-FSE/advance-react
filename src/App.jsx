@@ -17,16 +17,11 @@ import UseTransition from "./components/UseTransition";
 import { AuthProvider } from "./context/PerformantContext";
 import LazyComponent from "./LazyComponent";
 import { AllRouter } from "./components/AsynReactRouter";
+import ElementProp from "./components/ElementProp";
 function App() {
   return (
     <>
-      {/* <RouterProvider router={router} /> */}
-      <AllRouter />
-      {/* <BrowserRouter>
-        <AsyncRouter />
-        <Link to={"/"}>page1</Link>
-        <Link to={"/page2"}>Page2</Link>
-      </BrowserRouter> */}
+      <ElementProp />
     </>
   );
 }
