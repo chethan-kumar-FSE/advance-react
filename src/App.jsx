@@ -20,10 +20,11 @@ import { AllRouter } from "./components/AsynReactRouter";
 import ElementProp from "./components/ElementProp";
 import { PerformantContext } from "./components/ContextApi1";
 import { ContextApi2 } from "./components/ContextApi2";
+import UsersApi from "./components/UsersApi";
 function App() {
   return (
     <>
-      <ContextApi2 />
+      <UsersApi />
     </>
   );
 }

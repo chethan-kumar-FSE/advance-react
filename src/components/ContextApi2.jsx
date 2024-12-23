@@ -19,6 +19,7 @@ export const ShoppingCart = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducer, {
     items: [],
   });
+
   return (
     <React.Fragment>
       <CartContext.Provider value={dispatch}>
